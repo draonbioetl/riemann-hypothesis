@@ -75,12 +75,10 @@ public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PCMParame
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PCMRegularElement
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PChangeOfVariablesDegree
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PChartChangeSheetNull
-public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PCriticalFlatNotInjective
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PCriticalImageNull
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PFiniteMapOpen
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PFiniteProjectionCluster
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericFreenessClosed
-public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHolomorphicKernelFibre
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInjectiveHolomorphicJacobianNeZero
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalUniversalDenominator
 public import GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PManifoldZerosComplementConnected
@@ -1690,7 +1688,7 @@ theorem GroundTheory.Heights₂.Heights.AutoClose.CurveNormalisationFinite : Gro
   @GroundTheory.Heights₂.Heights.CurveNormalisationFinite.proof GroundTheory.Heights₂.Heights.FieldNumbers.NoetherIntegralClosureFinite.proof
 
 theorem GroundTheory.Heights₂.Heights.AutoClose.injective_holomorphic_jacobian_ne_zero_holds : GroundTheory.Heights₂.Heights.IndefiniteRowSideFullHecke.ComplexSets.InjectiveHolomorphicJacobianNeZero.Statement :=
-  @GroundTheory.Heights₂.Heights.IndefiniteRowSideFullHecke.ComplexSets.InjectiveHolomorphicJacobianNeZero.proof GroundTheory.Heights₂.Heights.IndefiniteRowSideFullHecke.ComplexSets.HolomorphicKernelFibre.proof GroundTheory.Heights₂.Heights.IndefiniteRowSideFullHecke.ComplexSets.CriticalFlatNotInjective.proof
+  GroundTheory.Heights₂.Heights.IndefiniteRowSideFullHecke.ComplexSets.InjectiveHolomorphicJacobianNeZero.proof
 
 theorem GroundTheory.Heights₂.Heights.AutoClose.CMHeightAddDim.{u} : GroundTheory.Heights₂.Heights.CMHeightAddDim.Statement.{u} :=
   @GroundTheory.Heights₂.Heights.CMHeightAddDim.proof.{u} GroundTheory.Heights₂.Heights.CMRegularElement.proof
